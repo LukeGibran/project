@@ -52,7 +52,7 @@ const MainFooter = ({ normalPadding = true }) => {
                 </div>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} sm={12} className="column">
+            {/* <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget links-widget">
                 <div className="widget-content">
                   <h6>Explore</h6>
@@ -78,7 +78,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   </Row>
                 </div>
               </div>
-            </Col>
+            </Col> */}
             <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget info-widget">
                 <div className="widget-content">
@@ -130,7 +130,7 @@ const MainFooter = ({ normalPadding = true }) => {
         <div className="auto-container">
           <div className="inner clearfix">
             <div className="copyright">
-              &copy; copyright {year} by {author}
+              &copy; copyright {year}
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ export default featuresSection;
 
 export const featuresSectionTwo = {
   image,
-  title: "Linoor all core features",
+  title: "Our all core features",
   title2: "Total design freedom for everyone",
   features: [
     {

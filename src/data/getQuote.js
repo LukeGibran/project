@@ -33,9 +33,9 @@ export default getQuote;
 export const getQuoteTwo = {
   title: "We are always here to help you",
   text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
-  address: "66 Broklyn Street, New York. USA",
-  email: "needhelp@linoor.com",
-  phone: "666 888 000",
+  address: "32 Manila, Philippines 7000",
+  email: "help@gmail.com",
+  phone: "995 115 853",
   inputs: [
     {
       type: "text",

@@ -29,15 +29,15 @@ const Home3 = () => {
       <CallToSectionTwo btnClassName="btn-style-one" />
       <DiscoverSection />
       <ServicesSectionThree />
-      {/* <FeaturesSectionTwo />
+      <FeaturesSectionTwo />
       <WeWorkSection />
       <TestimonialsSectionTwo />
-      <AboutSectionTwo />
+      {/* <AboutSectionTwo /> */}
       <GallerySection carousel="project-carousel-two" className="alternate" />
       <GetQuoteTwo />
-      <MapSection />
+      {/* <MapSection /> */}
       <SponsorsSectionTwo />
-      <MainFooter /> */}
+      <MainFooter />
     </Layout>
   );
 };
