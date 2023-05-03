@@ -9,8 +9,8 @@ import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5.png";
 import logo10 from "@/images/update-09-06-2021/logo-6.png";
 import logo9 from "@/images/update-26-02-2021/logo-horizontal-portfolio.png";
-import Black from "@/images/black.png";
-import White from "@/images/white.png";
+import Black from "@/images/Black.png";
+import White from "@/images/White.png";
 
 const home = {
   id: 1,
