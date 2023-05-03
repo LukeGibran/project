@@ -15,7 +15,7 @@ const ServiceNine = () => {
                   <div className="service-nine__image">
                     <Image
                       src={
-                        require(`@/images/update-01-10-2021/services/${image}`)
+                        require(`@/images/services/${image}`)
                           .default.src
                       }
                       alt=""

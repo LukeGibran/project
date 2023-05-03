@@ -14,7 +14,8 @@ const {
   logo4,
   logo5,
   logo9,
-  tempLogo,
+  Black,
+  White,
   title2,
   navItems,
   navItemsTwo,
@@ -34,7 +35,10 @@ const HeaderOne = ({
   const { scrollTop } = useScroll(120);
   const { toggleMenu, toggleSearch } = useRootContext();
   const newNavItems = onePage ? navItemsTwo : navItems;
-  let Logo = tempLogo;
+  let Logo
+  let logo1 = Black;
+  let logo2 = White;
+
   // let Logo =
   //   logo === 2
   //     ? logo2
@@ -46,13 +50,11 @@ const HeaderOne = ({
   //     ? logo9
   //     : logo1;
 
-  // if (logo === 4) {
-  //   if (scrollTop) {
-  //     Logo = logo1;
-  //   } else {
-  //     Logo = logo4;
-  //   }
-  // }
+  if (scrollTop) {
+    Logo = logo2;
+  } else {
+    Logo = logo1;
+  }
 
   return (
     <header

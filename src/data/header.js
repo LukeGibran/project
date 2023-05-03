@@ -9,12 +9,13 @@ import logo8 from "@/images/update-01-10-2021/logo-8-light.png";
 import logo5 from "@/images/update-09-06-2021/logo-5.png";
 import logo10 from "@/images/update-09-06-2021/logo-6.png";
 import logo9 from "@/images/update-26-02-2021/logo-horizontal-portfolio.png";
-import tempLogo from "@/images/logoipsum.svg";
+import Black from "@/images/black.png";
+import White from "@/images/white.png";
 
 const home = {
   id: 1,
   name: "Home",
-  href: "#",
+  href: "/",
 };
 
 const navItemsTwo = [
@@ -27,7 +28,7 @@ const navItemsTwo = [
   {
     id: 3,
     name: "Services",
-    href: "#services",
+    href: "services",
   },
   {
     id: 4,
@@ -61,7 +62,7 @@ const navItems = [
   {
     id: 2,
     name: "Services",
-    href: "#",
+    href: "services",
   },
   {
     id: 3,
@@ -122,7 +123,8 @@ const headerData = {
   logo8,
   logo9,
   logo10,
-  tempLogo,
+  Black,
+  White,
   navItems,
   navItemsTwo,
   address: "Suite 20 Golden Street USA",

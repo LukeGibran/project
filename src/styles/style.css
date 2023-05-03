@@ -605,7 +605,7 @@ img {
 .main-header .header-upper .logo-box {
   position: relative;
   float: left;
-  padding: 40px 0px;
+  padding: 20px 0px;
   margin-right: 50px;
   z-index: 7;
 }
@@ -619,7 +619,9 @@ img {
   position: relative;
   display: inline-block;
   max-width: 100%;
-  max-height: 34px;
+  max-height: 75px;
+  height: 75px;
+  width: 200px;
   z-index: 1;
 }
 
@@ -6697,7 +6699,8 @@ img.lazy-image.loaded {
 }
 
 .main-footer .logo-widget .logo img {
-  height: 34px;
+  height: 75px;
+  width: 175px;
 }
 
 .main-footer .logo-widget .text {

@@ -52,14 +52,14 @@ const MainFooter = ({ normalPadding = true }) => {
                 </div>
               </div>
             </Col>
-            {/* <Col xl={3} lg={6} md={6} sm={12} className="column">
+            <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget links-widget">
                 <div className="widget-content">
                   <h6>Explore</h6>
                   <Row className="clearfix">
                     <Col md={6} sm={12}>
                       <ul>
-                        {links.slice(0, 5).map(({ id, href, title }) => (
+                        {links.slice(0, 3).map(({ id, href, title }) => (
                           <li key={id}>
                             <Link href={href}>{title}</Link>
                           </li>
@@ -68,7 +68,7 @@ const MainFooter = ({ normalPadding = true }) => {
                     </Col>
                     <Col md={6} sm={12}>
                       <ul>
-                        {links.slice(5).map(({ id, href, title }) => (
+                        {links.slice(3).map(({ id, href, title }) => (
                           <li key={id}>
                             <Link href={href}>{title}</Link>
                           </li>
@@ -78,7 +78,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   </Row>
                 </div>
               </div>
-            </Col> */}
+            </Col>
             <Col xl={3} lg={6} md={6} sm={12} className="column">
               <div className="footer-widget info-widget">
                 <div className="widget-content">

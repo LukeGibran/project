@@ -1,14 +1,17 @@
 import PageBanner from "@/components/BannerSection/PageBanner";
+import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
-import ServiceNine from "@/components/ServicesSection/ServiceNine";
+import ServicesSectionOne from "@/components/ServicesSection/ServicesSectionOne";
+import ServicesSectionThree from "@/components/ServicesSection/ServicesSectionThree";
+import WeWorkSection from "@/components/WeWorkSection/WeWorkSection";
 import React from "react";
 
-const Services2 = () => {
+const services = () => {
   return (
     <Layout pageTitle="Services">
       <Style />
@@ -16,10 +19,13 @@ const Services2 = () => {
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Services" />
-      <ServiceNine />
+      <ServicesSectionThree className="padd-top" />
+      <ServicesSectionOne />
+      <WeWorkSection />
+      <CallToSectionTwo className="alternate" />
       <MainFooter />
     </Layout>
   );
 };
 
-export default Services2;
+export default services;

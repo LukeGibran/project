@@ -1,5 +1,5 @@
 import demoBg from "@/images/background/footer-bg-2.jpg";
-import logo from "@/images/logoipsum.svg";
+import logo from "@/images/White.png";
 import logo3 from "@/images/logo-3.png";
 import logo6 from "@/images/update-01-10-2021/logo-6-light.png";
 import logo7 from "@/images/update-01-10-2021/logo-7-light.png";
@@ -66,49 +66,29 @@ export const mainFooter = {
   ],
   links: [
     {
-      id: 1,
-      href: "/about",
-      title: "About",
-    },
-    {
       id: 2,
-      href: "/team",
-      title: "Meet Our Team",
+      title: "Services",
+      href: "services",
     },
     {
       id: 3,
-      href: "/portfolio",
-      title: "Our Portfolio",
+      title: "Works",
+      href: "#",
     },
     {
       id: 4,
-      href: "/blog",
-      title: "Latest News",
+      title: "Team",
+      href: "#",
     },
     {
       id: 5,
-      href: "/contact",
-      title: "Contact",
+      title: "Portfolio",
+      href: "#",
     },
     {
       id: 6,
-      href: "/faqs",
-      title: "Support",
-    },
-    {
-      id: 7,
-      href: "/faqs",
-      title: "Privacy Policy",
-    },
-    {
-      id: 8,
-      href: "/faqs",
-      title: "Terms of Use",
-    },
-    {
-      id: 9,
-      href: "/faqs",
-      title: "Help",
+      title: "Contact",
+      href: "#",
     },
   ],
   ...footer,
