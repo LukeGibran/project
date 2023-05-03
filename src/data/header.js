@@ -128,7 +128,7 @@ const headerData = {
   navItems,
   navItemsTwo,
   address: "Suite 20 Golden Street USA",
-  phone: "955 683 9421",
+  phone: "804 5055 551",
   phone2: "+ 92 666 888 0000",
   email: "needhelp@linoor.com",
   icon,

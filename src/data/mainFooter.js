@@ -31,13 +31,13 @@ export const mainFooter = {
   about3:
     "We’ve grown our business on a set of \n three building blocks. Enjoy the \n people you work.",
   text: "Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.",
-  address: "122 Manila, Philippines 7000",
+  address: "20791 3 Oaks Pkwy Unit 594 Estero, FL 33929",
   address3: "66 Mark Street, New Town DC 5752, Lo New York",
   address2:
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
-  phone: "955 584 343",
+  phone: "804 5055 551",
   phone2: "+92 3333 222 000",
-  email: "help@gmail.com",
+  email: "Alex@seosmicdesigninc.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:

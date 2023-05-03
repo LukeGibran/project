@@ -27,14 +27,10 @@ const SlideItemThree = ({ slide = {} }, ref) => {
               </h1>
               <div className="text">{text}</div>
               <div className="link-box">
-                <Link href="#">
-                  {/* add noreferrer */}
-
-                  <a className="theme-btn btn-style-two" href="https://calendly.com/alexmadl/discovery" >
-                    <i className="btn-curve"></i>
-                    <span className="btn-title">Book Now</span>
-                  </a>
-                </Link>
+                <a className="theme-btn btn-style-two" href="https://calendly.com/alexmadl/discovery" target="_blank" rel="noopener" >
+                  <i className="btn-curve"></i>
+                  <span className="btn-title">Book Now</span>
+                </a>
               </div>
             </div>
           </div>
