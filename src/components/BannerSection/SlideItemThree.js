@@ -30,7 +30,7 @@ const SlideItemThree = ({ slide = {} }, ref) => {
                 <Link href="#">
                   {/* add noreferrer */}
 
-                  <a className="theme-btn btn-style-two" rel="noopener" target="_blank" href="https://calendly.com/alexmadl/discovery" >
+                  <a className="theme-btn btn-style-two" href="https://calendly.com/alexmadl/discovery" >
                     <i className="btn-curve"></i>
                     <span className="btn-title">Book Now</span>
                   </a>
