@@ -34,7 +34,7 @@ export const getQuoteTwo = {
   title: "We are always here to help you",
   text: "There are many variatns of passages the majority have suffered alteration in some foor randomised words believable.",
   address: "20791 3 Oaks Pkwy Unit 594 Estero, FL 33929",
-  email: "Alex@seosmicdesigninc.com",
+  email: "Alex@seismicdesigninc.com",
   phone: "804 5055 551",
   inputs: [
     {

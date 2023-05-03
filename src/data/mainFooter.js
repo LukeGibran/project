@@ -37,7 +37,7 @@ export const mainFooter = {
     "214 Gold Street Round Road. 66 \n Code New York, United States \n of America",
   phone: "804 5055 551",
   phone2: "+92 3333 222 000",
-  email: "Alex@seosmicdesigninc.com",
+  email: "Alex@seismicdesigninc.com",
   textBottom:
     "Sign up for our latest news & articles. We won’t give you spam mails.",
   subscribeText:
