@@ -27,7 +27,7 @@ const SlideItemThree = ({ slide = {} }, ref) => {
               </h1>
               <div className="text">{text}</div>
               <div className="link-box">
-                <a className="theme-btn btn-style-two" href="https://calendly.com/alexmadl/discovery" target="_blank" rel="noopener" >
+                <a className="theme-btn btn-style-two" href="https://calendly.com/alexmadl/discovery" target="_blank" rel="noopener noreferrer">
                   <i className="btn-curve"></i>
                   <span className="btn-title">Book Now</span>
                 </a>
