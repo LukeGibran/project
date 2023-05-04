@@ -73,22 +73,22 @@ export const mainFooter = {
     {
       id: 3,
       title: "Works",
-      href: "#",
+      href: "works",
     },
     {
       id: 4,
       title: "Team",
-      href: "#",
+      href: "team",
     },
     {
       id: 5,
       title: "Portfolio",
-      href: "#",
+      href: "portfolio",
     },
     {
       id: 6,
       title: "Contact",
-      href: "#",
+      href: "contact",
     },
   ],
   ...footer,

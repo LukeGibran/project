@@ -67,22 +67,22 @@ const navItems = [
   {
     id: 3,
     name: "Works",
-    href: "#",
+    href: "works",
   },
   {
     id: 4,
     name: "Team",
-    href: "#",
+    href: "team",
   },
   {
     id: 5,
     name: "Portfolio",
-    href: "#",
+    href: "portfolio",
   },
   {
     id: 6,
     name: "Contact",
-    href: "#",
+    href: "contact",
   },
 ];
 

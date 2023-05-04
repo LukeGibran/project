@@ -7,7 +7,7 @@ import SingleNews from "./SingleNews";
 
 const { title, newsData } = newsSection;
 
-const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
+const WorksSection = ({ className = "", showTitle = true, isMore = false }) => {
   const ref = useActive("#blog");
 
   return (
@@ -29,10 +29,10 @@ const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
         </Row>
         {isMore && (
           <div className="more-box">
-            <Link href="/blog">
+            <Link href="#">
               <a className="theme-btn btn-style-one">
                 <i className="btn-curve"></i>
-                <span className="btn-title">Load more posts</span>
+                <span className="btn-title">Load more Works</span>
               </a>
             </Link>
           </div>
@@ -42,4 +42,4 @@ const NewsSection = ({ className = "", showTitle = true, isMore = false }) => {
   );
 };
 
-export default NewsSection;
+export default WorksSection;

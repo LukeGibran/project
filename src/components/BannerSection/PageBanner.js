@@ -1,4 +1,11 @@
-import bg from "@/images/background/image-7.jpg";
+// Backgrounds
+import services from "@/images/background/image-7.jpg";
+import works from "@/images/background/works-bg.jpg";
+import team from "@/images/background/team-bg.jpg";
+import contact from "@/images/background/contact-bg.jpg";
+import portfolio from "@/images/background/portfolio-bg.jpg";
+
+
 import Link from "next/link";
 import React from "react";
 
@@ -8,6 +15,12 @@ const PageBanner = ({
   parent = "",
   parentHref = "/",
 }) => {
+
+  let bg
+
+  bg =
+    title === "Services" ? services : title === "Works" ? works : title === "Team Members" ? team : title === "Contact" ? contact : title === "Portfolio" ? portfolio : services;
+
   return (
     <section className="page-banner">
       <div

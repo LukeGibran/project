@@ -26,7 +26,7 @@ const Layout = ({
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Project | {pageTitle}</title>
+        <title>Seismic Design | {pageTitle}</title>
       </Head>
       <Preloader className={preloaderClass} loading={loading} bg={preloader} />
       <main

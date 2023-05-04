@@ -9,7 +9,7 @@ import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import MainFooter from "@/components/MainFooter/MainFooter";
-import NewsSection from "@/components/NewsSection/NewsSection";
+import NewsSection from "@/components/NewsSection/WorksSection";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import ServicesSection from "@/components/ServicesSection/ServicesSection";

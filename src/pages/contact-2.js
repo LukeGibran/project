@@ -1,16 +1,14 @@
 import PageBanner from "@/components/BannerSection/PageBanner";
-import ContactInfoTwo from "@/components/ContactSection/ContactInfoTwo";
-import ContactSectionTwo from "@/components/ContactSection/ContactSectionTwo";
+import ContactSection from "@/components/ContactSection/ContactSection";
 import HeaderOne from "@/components/Header/HeaderOne";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
-import FooterNine from "@/components/MainFooter/FooterNine";
-import MapBox from "@/components/MapSection/MapBox";
+import MainFooter from "@/components/MainFooter/MainFooter";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
 import React from "react";
 
-const Contact2 = () => {
+const Contact = () => {
   return (
     <Layout pageTitle="Contact">
       <Style />
@@ -18,12 +16,10 @@ const Contact2 = () => {
       <MobileMenu />
       <SearchPopup />
       <PageBanner title="Contact" />
-      <ContactSectionTwo />
-      <ContactInfoTwo />
-      <MapBox />
-      <FooterNine />
+      <ContactSection map form />
+      <MainFooter />
     </Layout>
   );
 };
 
-export default Contact2;
+export default Contact;

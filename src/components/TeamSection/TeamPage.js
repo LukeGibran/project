@@ -7,7 +7,7 @@ const TeamPage = () => {
   return (
     <section className="team-section">
       <div className="auto-container">
-        <Row className="clearfix">
+        <Row className="clearfix justify-content-center">
           {teamPage.map((team) => (
             <SingleTeamPage key={team.id} team={team} />
           ))}

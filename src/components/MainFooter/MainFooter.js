@@ -130,7 +130,7 @@ const MainFooter = ({ normalPadding = true }) => {
         <div className="auto-container">
           <div className="inner clearfix">
             <div className="copyright">
-              &copy; copyright {year}
+              &copy; copyright {year} by Seismic Design Inc
             </div>
           </div>
         </div>

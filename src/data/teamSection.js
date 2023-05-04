@@ -138,38 +138,26 @@ export const teamPage = [
   {
     id: 1,
     image: "team-1.jpg",
-    name: "Kevin martin",
-    designation: "Designer",
+    name: "Alex martin",
+    designation: "CEO",
   },
   {
     id: 2,
     image: "team-2.jpg",
-    name: "Jessica Brown",
-    designation: "Designer",
+    name: "Con Brown",
+    designation: "Web Developer",
   },
   {
     id: 3,
     image: "team-3.jpg",
-    name: "Mike Hardson",
-    designation: "Designer",
+    name: "Bernar Hardson",
+    designation: "Web Designer",
   },
   {
     id: 4,
     image: "team-4.jpg",
-    name: "Rose ford",
-    designation: "Designer",
-  },
-  {
-    id: 5,
-    image: "team-5.jpg",
-    name: "John Albert",
-    designation: "Designer",
-  },
-  {
-    id: 6,
-    image: "team-6.jpg",
-    name: "Christine eve",
-    designation: "Designer",
+    name: "Harrison ford",
+    designation: "SEO Specialist",
   },
 ];
 

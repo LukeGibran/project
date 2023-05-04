@@ -11,7 +11,7 @@ import Layout from "@/components/Layout/Layout";
 import LiveSection from "@/components/LiveSection/LiveSection";
 import MainFooter from "@/components/MainFooter/MainFooter";
 import MapSection from "@/components/MapSection/MapSection";
-import NewsSection from "@/components/NewsSection/NewsSection";
+import NewsSection from "@/components/NewsSection/WorksSection";
 import ParallaxSection from "@/components/ParallaxSection/ParallaxSection";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";

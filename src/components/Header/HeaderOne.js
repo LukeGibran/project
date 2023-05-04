@@ -1,4 +1,6 @@
 import { useRootContext } from "@/context/context";
+// react router
+import { useRouter } from "next/router";
 import headerData from "@/data/header";
 import useScroll from "@/hooks/useScroll";
 import Link from "next/link";
@@ -38,6 +40,7 @@ const HeaderOne = ({
   let Logo
   let logo1 = Black;
   let logo2 = White;
+  let exempted = ['services', 'works', 'team', 'portfolio', 'contact']
 
   // let Logo =
   //   logo === 2
@@ -50,10 +53,21 @@ const HeaderOne = ({
   //     ? logo9
   //     : logo1;
 
+
+  // check the name of the page
+  const router = useRouter();
+  const { pathname } = router;
+  const splitPath = pathname.split("/");
+  const pageName = splitPath[splitPath.length - 1];
+
+
   if (scrollTop) {
     Logo = logo2;
   } else {
-    Logo = logo1;
+    if(exempted.includes(pageName))
+      Logo = logo2;
+    else
+      Logo = logo1;
   }
 
   return (
